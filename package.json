@@ -1,7 +1,7 @@
 {
-  "name": "one-dark-ui",
+  "name": "SS-Orca-ui",
   "theme": "ui",
-  "version": "1.2.0",
+  "version": "0.1.0",
   "description": "Atom One dark UI theme",
   "keywords": [
     "dark",
@@ -9,7 +9,7 @@
     "ui"
   ],
   "license": "MIT",
-  "repository": "https://github.com/atom/one-dark-ui",
+  "repository": "https://github.com/n8rzz/ss-orca-ui",
   "main": "lib/main",
   "engines": {
     "atom": ">0.40.0"
