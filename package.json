@@ -1,18 +1,20 @@
 {
-  "name": "SS-Orca-ui",
+  "name": "ss-orca-ui",
   "theme": "ui",
-  "version": "0.1.0",
-  "description": "Atom One dark UI theme",
+  "version": "1.0.0",
+  "description": "ss-orca-ui based on the Atom One dark UI theme",
   "keywords": [
     "dark",
     "adaptive",
     "ui"
   ],
   "license": "MIT",
+  "author": "Nate Geslin",
   "repository": "https://github.com/n8rzz/ss-orca-ui",
+  "bugs": "https://github.com/n8rzz/ss-orca-ui/issues",
   "main": "lib/main",
   "engines": {
-    "atom": ">0.40.0"
+    "atom": ">=1.13.0"
   },
   "devDependencies": {
     "coffeelint": "^1.9.7"

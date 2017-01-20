@@ -1,7 +1,7 @@
-describe "One Dark UI theme", ->
+describe "SS Orca UI theme", ->
   beforeEach ->
     waitsForPromise ->
-      atom.packages.activatePackage('one-dark-ui')
+      atom.packages.activatePackage('ss-orca-ui')
 
   it "allows the font size to be set via config", ->
     expect(document.documentElement.style.fontSize).toBe ''
@@ -17,3 +17,6 @@ describe "One Dark UI theme", ->
 
     atom.config.set('one-dark-ui.layoutMode', 'Spacious')
     expect(document.documentElement.getAttribute('theme-one-dark-ui-layoutmode')).toBe 'spacious'
+
+    atom.config.set('one-dark-ui.layoutMode', 'Compact')
+    expect(document.documentElement.getAttribute('theme-one-dark-ui-layoutmode')).toBe 'compact'
